@@ -1,0 +1,15 @@
+# Sensitive API keys
+.env
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local vector database (regenerated via ingest_data.py)
+chroma_db/
+
+# OS specific files
+.DS_Store
+*.csv

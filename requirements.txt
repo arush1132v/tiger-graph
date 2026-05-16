@@ -1,0 +1,27 @@
+
+
+# Core Dependencies
+# 1.32.0 hard-caps pillow<11; 1.40+ removes that cap, unblocking Python 3.14
+streamlit>=1.40.0
+python-dotenv==1.0.1
+ 
+# LangChain and RAG
+langchain==0.1.16
+langchain-community==0.0.38
+langchain-core==0.1.52
+langchain-google-genai==1.0.1
+langchain-chroma>=0.1.2
+ 
+# Vector Database
+chromadb==0.4.24
+ 
+# Google AI
+google-generativeai>=0.4.1,<0.5.0
+ 
+# Text Processing
+pypdf==4.1.0
+ 
+# Utilities
+tiktoken>=0.7.0      # 0.6.0 has no prebuilt wheel for Python 3.14
+pillow>=11.0.0       # 11+ has prebuilt wheels for Python 3.14 / macOS arm64
+ 
